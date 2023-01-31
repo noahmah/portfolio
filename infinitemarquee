@@ -2,10 +2,9 @@
 .marquee {
 	display: flex;
 	overflow: hidden;
-	gap: 16px /* whatever you want but match it */
+	gap: 1rem /* whatever you want but match it */
   position: relative;
   user-select: none;
-width:100%;
 }
 
 .marquee-content {
@@ -32,13 +31,13 @@ width:100%;
 
 <div class="marquee">
 	<div class="marquee-content scroll">
-		<div>TEXT</div>
+		<div><img src="https://raw.githubusercontent.com/noahmah/portfolio/5153d7647ec149bea7ba24a9353b311a1d2387b9/Ellipse%2010.svg" /></div>
 		<div>TEXT</div>
 		<div>TEXT</div>
 		<div>END</div>
 	</div>
 	<div class="marquee-content scroll">
-		<div>TEXT</div>
+		<div><img src="https://raw.githubusercontent.com/noahmah/portfolio/5153d7647ec149bea7ba24a9353b311a1d2387b9/Ellipse%2010.svg" /></div>
 		<div>TEXT</div>
 		<div>TEXT</div>
 		<div>END</div>
