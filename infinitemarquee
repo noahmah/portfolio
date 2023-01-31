@@ -1,11 +1,31 @@
 <style>
-.marquee {
+.hero-content {
   display: flex;
-  overflow: hidden;
-  gap: 1rem;
+  flex-direction: column;
+  width: 100%;
+}
+.hero-box {
+  margin-top: -16px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 560px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(24px);
+  border-radius: 16px;
+  z-index: 1000;
+}
+.hero-box p {
+  text-align: center!important;
+}
+.marquee {
+	display: flex;
+	overflow: hidden;
+	gap: 1rem /* whatever you want but match it */
   position: relative;
   user-select: none;
-  width: 100%;
 }
 
 .marquee-content {
@@ -13,7 +33,7 @@
   display: flex;
   justify-content: space-around;
   min-width: 100%;
-	gap: 1rem;
+	gap: 1rem; /* match to gap above */
 }
 
 @keyframes scroll {
@@ -30,6 +50,7 @@
 }
 </style>
 
+<div class="hero-content">
 <div class="marquee">
 	<div class="marquee-content scroll">
 		<div><img src="https://raw.githubusercontent.com/noahmah/portfolio/5153d7647ec149bea7ba24a9353b311a1d2387b9/Ellipse%2010.svg" /></div>
@@ -48,4 +69,10 @@
 		<div><img src="https://raw.githubusercontent.com/noahmah/portfolio/8bcdccf3ce0aca6fc6f77047cac76084e896b882/Ellipse%2011.svg" /></div>
 		<div><img src="https://raw.githubusercontent.com/noahmah/portfolio/8bcdccf3ce0aca6fc6f77047cac76084e896b882/Ellipse%2011.svg" /></div>
 	</div>
+</div>
+<div class="hero-box">
+  <p class="framer-text framer-styles-preset-yqcsbi">
+    I design digital products and create educational content about all-things design. I’m currently Head of Design @StayShure, overseeing Product Design and front-end design processes.
+  </p>   
+</div>
 </div>
