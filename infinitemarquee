@@ -1,10 +1,11 @@
 <style>
 .marquee {
-	display: flex;
-	overflow: hidden;
-	gap: 1rem /* whatever you want but match it */
+  display: flex;
+  overflow: hidden;
+  gap: 1rem;
   position: relative;
   user-select: none;
+  width: 100%;
 }
 
 .marquee-content {
@@ -12,7 +13,7 @@
   display: flex;
   justify-content: space-around;
   min-width: 100%;
-	gap: 1rem; /* match to gap above */
+	gap: 1rem;
 }
 
 @keyframes scroll {
