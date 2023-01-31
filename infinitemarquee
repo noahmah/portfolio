@@ -19,6 +19,7 @@
 }
 .hero-box p {
   text-align: center!important;
+  color: #EAECF0;
 }
 .marquee {
 	display: flex;
